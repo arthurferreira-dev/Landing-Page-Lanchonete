@@ -10,4 +10,11 @@
 body {
     font-family: var(--default);
     height: 100vh;
+    font-size: 1em;
+    color: #000;
+}
+
+a, abbr {
+    text-decoration: none;
+    color: #000;
 }
