@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/media-query.css" />
     <link
       rel="stylesheet"
-      href="./sass/base/fontlink.scss"
+      href="sass/base/fontlink.scss"
     />
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
     <link
@@ -46,10 +46,13 @@
       <img src="imagens/pitú-icon.png" alt="Pitú Logo" id="pitu" />
       <h1 id="title">Pitú Lanches</h1>
       <nav>
-        <a href="#">Comidas</a>
-        <a href="#">Bebidas</a>
-        <a href="#">Popular</a>
-        <a href="#">Localização</a>
+        <i class="fa-solid fa-caret-down" id="icon-menu" onclick="MenuOpen()"></i>
+        <menu id="itens">
+          <a href="#">Comidas</a>
+          <a href="#">Bebidas</a>
+          <a href="#">Popular</a>
+          <a href="#">Localização</a>
+        </menu>
       </nav>
     </header>
     <main>
@@ -62,4 +65,5 @@
     </main>
   </body>
   <script src="src/index.js"></script>
+  <script src="src/menu.js"></script>
 </html>

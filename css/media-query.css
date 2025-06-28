@@ -2,22 +2,44 @@
 @import url('styles.css');
 
 @media screen and (min-width: 360px) and (max-width: 480px) { /*Mobile*/
-    
+    header {
+        background-color: #eaa422;
+    }
+
+    i#icon-menu {
+        display: block;
+    }
 }
 
 /*Tablet e Ipad (Portrait)*/
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-    
+    header {
+        background-color: #eaa422;
+    }
+
+    i#icon-menu {
+        display: block;
+    }
 }
 
 /*Tablet e Ipad (Landscape)*/
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    header {
+        background-image: linear-gradient(to right, #eaa422, var(--yellow-dark));
+    }
 
+    i#icon-menu {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) { /*Laptop e Desktop*/
     header {
         background-image: linear-gradient(to right, #eaa422, var(--yellow-dark));
+    }
+
+    i#icon-menu {
+        display: none;
     }
 }
 
