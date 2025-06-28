@@ -38,7 +38,7 @@ a:hover {
 }
 
 header {
-    background-color: aqua;
+    background-color: var(--yellow-dark);
 }
 
 nav {
@@ -65,7 +65,13 @@ nav > a:hover {
 }
 
 img#pitu {
-    display: inline;
-    height: 125px;
-    margin: 5px;
+    display: block;
+    margin: 0px auto 1px auto;
+    height: 115px;
+    padding-top: 5px;
+}
+
+h1#title {
+    text-align: center;
+    margin-bottom: 5px;
 }
