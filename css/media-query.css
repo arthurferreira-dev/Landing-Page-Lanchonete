@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('styles.css');
 
 @media screen and (min-width: 360px) and (max-width: 480px) { /*Mobile*/
     
@@ -15,7 +16,9 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) { /*Laptop e Desktop*/
-
+    header {
+        background-image: linear-gradient(to right, #eaa422, var(--yellow-dark));
+    }
 }
 
 /*Thanks!
