@@ -1,14 +1,4 @@
-// Caso não tenha, baixar o pacote "npm i readline-sync"
-
-const prompt = require("readline-sync"); // ele não reconhece o 'require'
-
-const nome = document.getElementById("bemVindo");
-
-function nomeDoUsuario(bemVindo) {
-  if (nome) {
-    console.log(`Olá ${nome}`);
-  }
-}
+let nome = prompt("Qual é o seu nome?");
 
 function carregar() {
   let msg = document.getElementById("timer");
@@ -28,6 +18,8 @@ function carregar() {
     //Boa noite
   }
 }
+
+console.log(carregar);
 
 // const barra = document.getElementsByClassName("navegador");
 
