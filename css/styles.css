@@ -7,6 +7,16 @@
     box-sizing: border-box;
 }
 
+:root { 
+    /*#BF0019, #DE9000, #592C00, #D8D3C8, #F52F2C*/
+
+    --red: #BF0019;
+    --yellow-dark: #DE9000;
+    --bosta: #592C00;
+    --cinza-branco: #D8D3C8;
+    --tomato: #F52F2C;
+}
+
 body {
     font-family: var(--default);
     height: 100vh;
@@ -19,6 +29,20 @@ a, abbr {
     color: #000;
 }
 
+a {
+    transition-duration: .38s;
+}
+
 a:hover {
     text-decoration: underline;
+}
+
+header {
+    background-color: aqua;
+}
+
+img#pitu {
+    display: inline;
+    height: 125px;
+    margin: 5px;
 }
