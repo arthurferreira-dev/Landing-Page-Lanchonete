@@ -2,6 +2,8 @@
 
 const prompt = require("readline-sync");
 
+const barra = document.getElementsByClassName("navegador");
+
 const nomeDoUsuario = prompt.question("Qual é o seu nome? ");
 
 if (nomeDoUsuario) {
@@ -10,4 +12,8 @@ if (nomeDoUsuario) {
   console.log(
     "Parece que você digitou o nome errado. Por favor, tente novamente"
   );
+}
+
+function barraDeNavegador(navegador) {
+  return window.onload;
 }
