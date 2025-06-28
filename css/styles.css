@@ -80,3 +80,14 @@ i#icon-menu {
     padding: 5px;
     margin-bottom: 3px;
 }
+
+h2#bemVindo {
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+p {
+    text-align: justify;
+    width: 78%;
+    margin: auto;
+}

@@ -1,6 +1,6 @@
 // Caso não tenha, baixar o pacote "npm i readline-sync"
 
-// const prompt = require("readline-sync");
+const prompt = require("readline-sync"); // ele não reconhece o 'require'
 
 const nome = document.getElementById("bemVindo");
 

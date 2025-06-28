@@ -5,9 +5,11 @@ function MenuOpen() {
     if (menu.style.display == 'block') {
         menu.style.display = 'none'
         icon.className = 'fa-solid fa-bars'
+        console.log('Console JS: sumiu')
     } else if (menu.style.display == 'none') {
         menu.style.display = 'block'
         icon.className = 'fa-solid fa-caret-down'
+        console.log('Console JS: apareceu')
     }
 }
 
