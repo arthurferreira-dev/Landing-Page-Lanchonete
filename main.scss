@@ -1,9 +1,8 @@
 
-//RESPONSIVE 
-
+//  RESPONSIVIDADE
 @import "./sass/base/responsive.scss";
-//BASE 
 
+//  BASE
 @import "/Landing-Page-Lanchonete/sass/base/animations.scss";
 @import "./sass/base/base.scss";
 @import "./sass/base/links.scss";
@@ -11,12 +10,11 @@
 
 
 
-// COMPONENTS
+// COMPONENTES
 @import "./sass/components/";
 
 
 //  LAYOUT
-
 @import "./sass/layout/navigation";
 @import "./sass/layout/sidebar";
 @import "./sass/layout/footer.scss";
@@ -25,23 +23,20 @@
 
 
 
-// PAGES
-
+// PÁGINAS
 @import "./sass/pages/";
 
 
 
 
 
-// THEMES
-
+// TEMAS
 @import "/Landing-Page-Lanchonete/sass/themes/admin";
 @import "/Landing-Page-Lanchonete/sass/themes/theme";
 
 
 
-//UTILITIES
-
+//  UTILITIDADES
 @import "./sass/utilities/functions";
 @import "./sass/utilities/mixins";
 @import "./sass/utilities/placeholders";
@@ -49,6 +44,5 @@
 
 
 
-//VENDORS
-
+//  VENDORS
 @import "/Landing-Page-Lanchonete/sass/vendors/";

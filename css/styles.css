@@ -53,13 +53,13 @@ main {
     margin-top: 12px;
 }
 
-nav > a {
+nav > menu > a {
     margin-right: 5px;
     padding: 5.6px;
     color: #817f7a;
 }
 
-nav > a:hover {
+nav > menu > a:hover {
     text-decoration: none;
     color: #F52F2C;
 }
@@ -74,4 +74,20 @@ img#pitu {
 h1#title {
     text-align: center;
     margin-bottom: 5px;
+}
+
+i#icon-menu {
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+h2#bemVindo {
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+p {
+    text-align: justify;
+    width: 78%;
+    margin: auto;
 }

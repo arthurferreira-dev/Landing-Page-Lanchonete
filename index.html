@@ -10,6 +10,8 @@
       rel="stylesheet"
       href="./sass/base/fontlink.scss"
     />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
     <link
       rel="icon"
@@ -41,21 +43,24 @@
       type="image/x-png"
     />
   </head>
-  <body>
+  <body onresize="High()">
     <header>
-      <h2 id="bemVindo">Olá nome, seja bem vindo!</h2>
       <h2 id="timer"></h2>
       <img src="imagens/pitú-icon.png" alt="Pitú Logo" id="pitu" />
       <h1 id="title">Pitú Lanches</h1>
       <nav>
-        <a href="#">Comidas</a>
-        <a href="#">Bebidas</a>
-        <a href="#">Popular</a>
-        <a href="#">Localização</a>
+        <i class="fa-solid fa-caret-down" id="icon-menu" onclick="MenuOpen()"></i>
+        <menu id="itens">
+          <a href="#">Comidas</a>
+          <a href="#">Bebidas</a>
+          <a href="#">Popular</a>
+          <a href="#">Localização</a>
+        </menu>
       </nav>
     </header>
 
     <main>
+      <h2 id="bemVindo">Olá nome, seja bem vindo!</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto vel
         quibusdam excepturi velit nam pariatur eveniet quis, esse dolorum unde
@@ -71,4 +76,5 @@
     </main>
   </body>
   <script src="src/index.js"></script>
+  <script src="src/menu.js"></script>
 </html>
