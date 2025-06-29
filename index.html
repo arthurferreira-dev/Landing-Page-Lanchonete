@@ -6,12 +6,11 @@
     <title>Pitú Lanches</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/media-query.css" />
+    <link rel="stylesheet" href="./sass/base/fontlink.scss" />
     <link
       rel="stylesheet"
-      href="./sass/base/fontlink.scss"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
     <link
       rel="icon"
@@ -44,28 +43,42 @@
     />
   </head>
   <body onresize="High()">
-    <header>
-      <h2 id="timer"></h2>
-      <img src="imagens/pitú-icon.png" alt="Pitú Logo" id="pitu" onclick="Name()" />
-      <h1 id="title">Pitú Lanches</h1>
-      <nav>
-        <i class="fa-solid fa-caret-down" id="icon-menu" onclick="MenuOpen()"></i>
+
+     <nav>
+        <i
+          class="fa-solid fa-caret-down"
+          id="icon-menu"
+          onclick="MenuOpen()"
+        ></i>
         <menu id="itens">
           <ol id="menu-list">
-            <li><a href="error/error.html">Comidas</a></li>
+            <li><i class="fa-solid fa-house"></i></li>
             <li><a href="error/error.html">Bebidas</a></li>
             <li><a href="error/error.html">Popular</a></li>
             <li><a href="error/error.html">Localização</a></li>
           </ol>
         </menu>
       </nav>
+
+
+      
+    <div id="bem-vindo"></div>
+    <div id="timer"></div>
+    <header>
+      <h2 id="timer"></h2>
+      <img
+        src="./logos.png"
+        alt="Pitú Logo"
+        id="pitu"
+        onclick="Name()"
+      />
+      <h1 id="title">Pitú Lanches</h1>
+     
     </header>
 
     <main>
-    <!--<h2 id="bemVindo">Olá nome, seja bem vindo!</h2>-->
-      <h2 class="center">
-        Está com fome? Veio ao lugar certo!
-      </h2>
+      <!--<h2 id="bemVindo">Olá nome, seja bem vindo!</h2>-->
+      <h2 class="center">Está com fome? Veio ao lugar certo!</h2>
       <p class="center">
         Nós vamos te entregar de graça as melhores comidas e bebidas da região!
       </p>
@@ -83,20 +96,22 @@
         <h3 id="redes">Redes Socias <i class="fa-solid fa-paperclip"></i></h3>
         <ul id="redes-socias">
           <li class="icons-footer">
-            <a href="#" class="space-icons"> <!--3 repositórios (crie uma página para isso)-->
+            <a href="#" class="space-icons">
+              <!--3 repositórios (crie uma página para isso)-->
               <i class="fa-brands fa-github" id="footer-icon"></i>
             </a>
           </li>
           <li class="icons-footer">
-            <a href="#"> <!--3 contas do discord (crie uma página para isso)-->
+            <a href="#">
+              <!--3 contas do discord (crie uma página para isso)-->
               <i class="fa-brands fa-discord" id="footer-icon"></i>
             </a>
           </li>
         </ul>
       </section>
-      <br>
+      <br />
       <section id="pagamento">
-        <h3 style="margin-bottom: 6.5px;">Formas de Pagamento</h3>
+        <h3 style="margin-bottom: 6.5px">Formas de Pagamento</h3>
         <ul id="pagamentos">
           <li class="icons-footer">
             <i class="fa-brands fa-pix" id="footer-icon"></i>
@@ -112,7 +127,9 @@
       <section id="alerta">
         <p>
           <strong>
-            PORFAVOR AS FORMAS DE PAGAMENTOS, LOCALIZAÇÃO, CIDADES, COMIDAS E BEBIDAS SÃO FALSAS , POIS O SITE É SÓ UMA DEMONSTRAÇÃO DE TRABALHO EM EQUIPE!
+            POR FAVOR AS FORMAS DE PAGAMENTOS, LOCALIZAÇÃO, CIDADES, COMIDAS E
+            BEBIDAS SÃO FEITOS COM FINS MERAMENTE DIDÁTICOS , POIS O SITE É SÓ
+            UMA DEMONSTRAÇÃO DE TRABALHO EM EQUIPE!
           </strong>
         </p>
       </section>
