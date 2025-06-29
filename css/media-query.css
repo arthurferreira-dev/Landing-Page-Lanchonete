@@ -1,6 +1,26 @@
 @charset "UTF-8";
+@import url('styles.css');
 
 @media screen and (min-width: 360px) and (max-width: 480px) { /*Mobile*/
     
 }
 
+/*Tablet e Ipad (Portrait)*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    
+}
+
+/*Tablet e Ipad (Landscape)*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) { /*Laptop e Desktop*/
+    header {
+        background-image: linear-gradient(to right, #eaa422, var(--yellow-dark));
+    }
+}
+
+/*Thanks!
+https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+*/
