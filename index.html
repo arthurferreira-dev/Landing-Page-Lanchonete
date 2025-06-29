@@ -51,10 +51,12 @@
       <nav>
         <i class="fa-solid fa-caret-down" id="icon-menu" onclick="MenuOpen()"></i>
         <menu id="itens">
-          <a href="error/error.html">Comidas</a>
-          <a href="error/error.html">Bebidas</a>
-          <a href="error/error.html">Popular</a>
-          <a href="error/error.html">Localização</a>
+          <ol id="menu-list">
+            <li><a href="error/error.html">Comidas</a></li>
+            <li><a href="error/error.html">Bebidas</a></li>
+            <li><a href="error/error.html">Popular</a></li>
+            <li><a href="error/error.html">Localização</a></li>
+          </ol>
         </menu>
       </nav>
     </header>
@@ -78,26 +80,33 @@
         </ul>
       </section>
       <section id="redes">
-        <h3>Redes Socias</h3>
+        <h3 id="redes">Redes Socias <i class="fa-solid fa-paperclip"></i></h3>
         <ul id="redes-socias">
           <li class="icons-footer">
-            <a href="#"> <!--3 repositórios (crie uma página para isso)-->
-              <i class="fa-brands fa-github"></i>
+            <a href="#" class="space-icons"> <!--3 repositórios (crie uma página para isso)-->
+              <i class="fa-brands fa-github" id="footer-icon"></i>
             </a>
           </li>
           <li class="icons-footer">
             <a href="#"> <!--3 contas do discord (crie uma página para isso)-->
-              <i class="fa-brands fa-discord"></i>
+              <i class="fa-brands fa-discord" id="footer-icon"></i>
             </a>
           </li>
         </ul>
       </section>
+      <br>
       <section id="pagamento">
-        <h3>Formas de Pagamento</h3>
+        <h3 style="margin-bottom: 6.5px;">Formas de Pagamento</h3>
         <ul id="pagamentos">
-          <li class="icons-footer"><i class="fa-brands fa-pix"></i></li>
-          <li class="icons-footer"><i class="fa-brands fa-cc-visa"></i></li>
-          <li class="icons-footer"><i class="fa-brands fa-cc-mastercard"></i></li>
+          <li class="icons-footer">
+            <i class="fa-brands fa-pix" id="footer-icon"></i>
+          </li>
+          <li class="icons-footer">
+            <i class="fa-brands fa-cc-visa" id="footer-icon"></i>
+          </li>
+          <li class="icons-footer">
+            <i class="fa-brands fa-cc-mastercard" id="footer-icon"></i>
+          </li>
         </ul>
       </section>
       <section id="alerta">

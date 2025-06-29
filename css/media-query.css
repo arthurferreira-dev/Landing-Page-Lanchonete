@@ -9,6 +9,11 @@
     i#icon-menu {
         display: block;
     }
+
+    ol#menu-list > * {
+        display: block;
+        line-height: 1.35em;
+    }
 }
 
 /*Tablet e Ipad (Portrait)*/
@@ -19,6 +24,10 @@
 
     i#icon-menu {
         display: none;
+    }
+
+    ol#menu-list > * {
+        display: inline-block;
     }
 }
 
@@ -31,6 +40,10 @@
     i#icon-menu {
         display: none;
     }
+
+    ol#menu-list > * {
+        display: inline-block;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) { /*Laptop e Desktop*/
@@ -40,6 +53,10 @@
 
     i#icon-menu {
         display: none;
+    }
+
+    ol#menu-list > * {
+        display: inline-block;
     }
 }
 

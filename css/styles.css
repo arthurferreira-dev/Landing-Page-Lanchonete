@@ -19,6 +19,7 @@
 
 body {
     font-family: var(--default);
+    background-color: var(--cinza-branco);
     height: 100vh;
     font-size: 1em;
     color: #000;
@@ -53,13 +54,13 @@ main {
     margin-top: 12px;
 }
 
-nav > menu > a {
+nav > menu > ol > li > a {
     margin-right: 5px;
     padding: 5.6px;
     color: #817f7a;
 }
 
-nav > menu > a:hover {
+nav > menu > ol > li > a:hover {
     text-decoration: none;
     color: #F52F2C;
 }
@@ -100,6 +101,73 @@ ul#pagamentos > *, ul#redes-socias > * {
     display: inline;
 }
 
+ul#redes-socias {
+    margin-left: 12px;
+}
+
 .center {
     text-align: center;
+}
+
+footer {
+    margin-top: 12px;
+    padding: 6px;
+    background-color: var(--bosta);
+}
+
+footer > * {
+    color: #fff;
+}
+
+footer > section {
+    display: inline-block;
+}
+
+section#alerta {
+    padding-top: 12px;
+    font-size: 1.085em;
+    text-align: justify;
+}
+
+.icons-footer {
+    font-size: 1.156em;
+    text-align: center;
+    margin-top: 4px;
+    color: #000;
+}
+
+.space-icons {
+    margin-right: 6px;
+    text-align: center;
+}
+
+h3#redes {
+    margin-bottom: 11px;
+    padding: 4px;
+    background-color: #395d9f;
+    margin-left: 12px;
+}
+
+section#redes > ul > li > a:hover {
+    text-decoration: none;
+}
+
+ol#menu-list {
+    list-style-type: circle;
+    list-style: circle;
+}
+
+ol#menu-list > * {
+    display: inline-block;
+}
+
+i#footer-icon { /* Forçando o Ícone */
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+section#redes {
+    margin-right: 12px;
+    margin-bottom: 12px;
 }
