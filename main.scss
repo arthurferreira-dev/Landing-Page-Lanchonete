@@ -1,0 +1,54 @@
+
+//RESPONSIVE 
+
+@import "./sass/base/responsive.scss";
+//BASE 
+
+@import "/Landing-Page-Lanchonete/sass/base/animations.scss";
+@import "./sass/base/base.scss";
+@import "./sass/base/links.scss";
+@import "./sass/base/reset.scss";
+
+
+
+// COMPONENTS
+@import "./sass/components/";
+
+
+//  LAYOUT
+
+@import "./sass/layout/navigation";
+@import "./sass/layout/sidebar";
+@import "./sass/layout/footer.scss";
+@import "./sass/layout/grid.scss";
+@import "./sass/layout/header.scss";
+
+
+
+// PAGES
+
+@import "./sass/pages/";
+
+
+
+
+
+// THEMES
+
+@import "/Landing-Page-Lanchonete/sass/themes/admin";
+@import "/Landing-Page-Lanchonete/sass/themes/theme";
+
+
+
+//UTILITIES
+
+@import "./sass/utilities/functions";
+@import "./sass/utilities/mixins";
+@import "./sass/utilities/placeholders";
+@import "./sass/utilities/variables";
+
+
+
+//VENDORS
+
+@import "/Landing-Page-Lanchonete/sass/vendors/";
