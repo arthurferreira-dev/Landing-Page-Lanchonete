@@ -1,6 +1,12 @@
 @charset "UTF-8";
 @import url('fonts.css');
 
+/*
+    CSS Archive by: @arthurferreira-dev
+    Comments and Organizate by: @arthurferreira-dev
+    License: Creative Commons 1.0
+*/
+
 * { /*Reset Charset*/
     margin: 0px;
     padding: 0px;
@@ -17,25 +23,14 @@
     --tomato: #F52F2C;
 }
 
+/* Skeletons */
+
 body {
     font-family: var(--default);
     background-color: var(--cinza-branco);
     height: 100vh;
     font-size: 1em;
     color: #000;
-}
-
-a, abbr {
-    text-decoration: none;
-    color: #000;
-}
-
-a {
-    transition-duration: .38s;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 header {
@@ -50,26 +45,26 @@ nav {
     text-align: center;
 }
 
-main {
-    margin-top: 12px;
-}
-
 nav > menu > ol > li > a {
     margin-right: 5px;
     padding: 5.6px;
     color: #817f7a;
 }
 
-nav > menu > ol > li > a:hover {
-    text-decoration: none;
-    color: #F52F2C;
+main {
+    margin-top: 12px;
 }
 
-img#pitu {
-    display: block;
-    margin: 0px auto 1px auto;
-    height: 115px;
-    padding-top: 5px;
+footer {
+    margin-top: 12px;
+    padding: 6px;
+    background-color: var(--bosta);
+}
+
+/* Add more rules */
+
+a {
+    transition-duration: .38s;
 }
 
 h1#title {
@@ -87,46 +82,12 @@ h2#bemVindo {
     margin-bottom: 7px;
 }
 
-p {
-    text-align: justify;
-    width: 78%;
-    margin: auto;
-}
-
-ul, ol {
-    list-style-type: none;
-}
-
 ul#pagamentos > *, ul#redes-socias > * {
     display: inline;
 }
 
 ul#redes-socias {
     margin-left: 12px;
-}
-
-.center {
-    text-align: center;
-}
-
-footer {
-    margin-top: 12px;
-    padding: 6px;
-    background-color: var(--bosta);
-}
-
-footer > * {
-    color: #fff;
-}
-
-footer > section {
-    display: inline-block;
-}
-
-section#alerta {
-    padding-top: 12px;
-    font-size: 1.085em;
-    text-align: justify;
 }
 
 .icons-footer {
@@ -148,8 +109,72 @@ h3#redes {
     margin-left: 12px;
 }
 
-section#redes > ul > li > a:hover {
+i#footer-icon { /* Forçando o Ícone */
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+section#alerta {
+    padding-top: 12px;
+    line-height: 1.45em;
+}
+
+span#github > i {
+    color: #000;
+    transition-duration: .40s;
+}
+
+span#discord > i {
+    color: #3e62a5;
+    transition-duration: .40s;
+}
+
+h3#title-pagamentos {
+    margin-bottom: 6.5px;
+    background-color: #34a22a;
+    padding: 4px;
+}
+
+h3#title-cidades {
+    margin-bottom: 6.5px;
+    padding: 4px;
+    background-color: #396363;
+}
+
+section#hamburguer-section > img#hamburguer {
+    margin: auto;
+    width: 460px;
+    height: 300px;
+}
+
+/* Default */
+
+a, abbr {
     text-decoration: none;
+    color: #000;
+}
+
+p {
+    text-align: justify;
+    width: 78%;
+    margin: auto;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.center {
+    text-align: center;
+}
+
+footer > * {
+    color: #fff;
+}
+
+footer > section {
+    display: inline-block;
 }
 
 ol#menu-list {
@@ -161,13 +186,48 @@ ol#menu-list > * {
     display: inline-block;
 }
 
-i#footer-icon { /* Forçando o Ícone */
-    background-color: #fff;
-    padding: 5px;
-    border-radius: 50%;
-}
-
 section#redes {
     margin-right: 12px;
     margin-bottom: 12px;
+}
+
+section#alerta > p {
+    margin-top: 12px;
+    font-size: 1.085em;
+    text-align: left;
+}
+
+/* Hovers */
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav > menu > ol > li > a:hover {
+    text-decoration: none;
+    color: #F52F2C;
+}
+
+section#redes > ul > li > a:hover {
+    text-decoration: none;
+}
+
+span#github > i:hover {
+    color: #333;
+}
+
+span#discord > i:hover {
+    color: #355591;
+}
+
+/* Images */
+
+img {
+    display: block;
+}
+
+img#pitu {
+    margin: 0px auto 1px auto;
+    height: 115px;
+    padding-top: 5px;
 }

@@ -1,48 +1,81 @@
 @charset "UTF-8";
 @import url('styles.css');
 
+/*
+    CSS Media-Query Archive by: @arthurferreira-dev
+    Comments and Organizate by: @arthurferreira-dev
+    License: Creative Commons 1.0
+*/
+
 @media screen and (min-width: 360px) and (max-width: 480px) { /*Mobile*/
+    /* Skeletonz */
     header {
         background-color: #eaa422;
     }
 
+    /* Add more rules */
     i#icon-menu {
         display: block;
     }
 
+    /* Default */
     ol#menu-list > * {
         display: block;
         line-height: 1.35em;
+    }
+
+    section#alerta > p {
+        margin-top: 13px;
+        font-size: 0.99em;
+        text-align: center;
     }
 }
 
 /*Tablet e Ipad (Portrait)*/
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /* Skeletonz */
     header {
         background-color: #eaa422;
     }
 
+    /* Add more rules */
     i#icon-menu {
         display: none;
     }
 
+    /* Default */
     ol#menu-list > * {
         display: inline-block;
+    }
+
+    section#alerta > p {
+        margin-top: 12px;
+        font-size: 1em;
+        text-align: left;
     }
 }
 
 /*Tablet e Ipad (Landscape)*/
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Skeletonz */
     header {
         background-image: linear-gradient(to right, #eaa422, var(--yellow-dark));
     }
 
+    /* Add more rules */
     i#icon-menu {
         display: none;
     }
 
+    /* Default */
     ol#menu-list > * {
         display: inline-block;
+    }
+
+    section#alerta > p {
+        margin-top: 12px;
+        font-size: 1.2em;
+        text-align: left;
     }
 }
 
@@ -55,8 +88,15 @@
         display: none;
     }
 
+    /* Default */
     ol#menu-list > * {
         display: inline-block;
+    }
+
+    section#alerta > p {
+        margin-top: 12px;
+        font-size: 1.085em;
+        text-align: left;
     }
 }
 
