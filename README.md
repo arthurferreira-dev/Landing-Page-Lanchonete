@@ -14,5 +14,13 @@
 | @arthurferreira-dev | Desevolvedor Web e Programador |
 | @zungabunga-studios | Designer |
 
+# Linguagens Usadas:
+| Linguagem | Adição |
+| ----- | ------ |
+| HTML | Imagens, Textos, Ícones e etc. |
+| CSS | Estilos |
+| JavaScript | Interatividade |
+| SASS | Um CSS Melhor |
+
 # License
 <a href="LICENSE">Creative Commons 1.0</a>
