@@ -1,0 +1,12 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+@media screen and (min-width: 360px) and (max-width: 480px) { /*Mobile*/ }
+:root {
+  --oswald: "Oswald", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --default: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: orange;
+}
+
+/*# sourceMappingURL=styles.css.map */

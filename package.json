@@ -3,7 +3,7 @@
     "readline-sync": "^1.4.10"
   },
   "scripts": {
-  "sass": "sass src/scss:public/css"
+  "sass": "src/public"
 }
 
 }
