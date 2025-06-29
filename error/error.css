@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('../css/fonts.css'); 
+/*Importação de TODAS as Fontes (porfavor coloque suas fontes nesse arquivo)*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--nexa-error);
+    font-size: 1em;
+    color: #000;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+main > * {
+    text-align: center;
+}
+
+h1#error {
+    color: #8519eb;
+}
+
+p#dev {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 7px;
+    text-align: center;
+    width: 200px;
+    background-color: #8519eb;
+    border: none;
+    border-radius: 5.6px;
+    font-size: 1.15em;
+    transition-duration: .39s;
+}
+
+button:hover {
+    background-color: #7815d5;
+    color: #e2e2e2;
+}
+
+button > a {
+    color: #fff;
+}

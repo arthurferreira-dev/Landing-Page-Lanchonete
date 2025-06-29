@@ -2,7 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); /*Oswald*/
 
+@font-face {
+    font-family: 'Nexa Error';
+    src: url('../fontes/nexa/Nexa-Heavy.ttf') format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
 :root {
     --oswald: 'Oswald', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --nexa-error: 'Nexa Error', Arial, Helvetica, Verdana, monospace, sans-serif;
     --default: Arial, Helvetica, sans-serif;
 }

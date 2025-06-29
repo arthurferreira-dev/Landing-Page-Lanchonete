@@ -91,3 +91,15 @@ p {
     width: 78%;
     margin: auto;
 }
+
+ul, ol {
+    list-style-type: none;
+}
+
+ul#pagamentos > *, ul#redes-socias > * {
+    display: inline;
+}
+
+.center {
+    text-align: center;
+}
