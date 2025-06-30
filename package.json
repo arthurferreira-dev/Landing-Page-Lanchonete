@@ -2,16 +2,8 @@
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
-
-  scss: {
-  quietDeps: true,
-  silenceDeprecations: [
-    "mixed-decls",
-     "import",
-     "color-functions",
-     "global-builtin",
-  ]
-  verbose: false,
+  "scripts": {
+  "sass": "src/public"
 }
 
 }

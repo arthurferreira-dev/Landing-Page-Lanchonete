@@ -38,8 +38,32 @@ a:hover {
     text-decoration: underline;
 }
 
+header {
+    background-color: var(--yellow-dark);
+}
 
+nav {
+    border-top: 3px solid #a09d96;
+    border-bottom: 3px solid #a09d96;
+    background-color: #fff;
+    padding: 5.6px;
+    text-align: center;
+}
 
+main {
+    margin-top: 12px;
+}
+
+nav > menu > ol > li > a {
+    margin-right: 5px;
+    padding: 5.6px;
+    color: #817f7a;
+}
+
+nav > menu > ol > li > a:hover {
+    text-decoration: none;
+    color: #F52F2C;
+}
 
 img#pitu {
     display: block;

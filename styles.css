@@ -5,22 +5,8 @@
   --default: Arial, Helvetica, sans-serif;
 }
 
-header {
-  background-color: var(--yellow-dark);
-  height: 53vh;
-  padding: 5%;
-}
-
 body {
   background: orange;
-}
-
-main {
-  margin-top: 12px;
-}
-
-body {
-  background-color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */

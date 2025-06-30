@@ -6,14 +6,14 @@
 
 @import "./sass/base/base.scss";
 @import "./sass/base/fontlink.scss";
-// @import "./sass/base/reset.scss";
+@import "./sass/base/reset.scss";
 
 
 
 
 //  LAYOUT
-// @import "./sass/layout/navigation";
-// @import "./sass/layout/sidebar";
+@import "./sass/layout/navigation";
+@import "./sass/layout/sidebar";
 @import "./sass/layout/footer.scss";
 @import "./sass/layout/grid.scss";
 @import "./sass/layout/header.scss";
@@ -45,15 +45,3 @@
 //  @import "./sass/vendors/";
 
 
-
-
-
-
-
-main {
-    margin-top: 12px;
-}
-
-body{
-    background-color: red;
-}
