@@ -153,12 +153,12 @@ section#redes > ul > li > a:hover {
 }
 
 ol#menu-list {
-    list-style-type: circle;
-    list-style: circle;
-}
-
-ol#menu-list > * {
-    display: inline-block;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 i#footer-icon { /* Forçando o Ícone */
