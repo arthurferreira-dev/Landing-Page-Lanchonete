@@ -22,5 +22,13 @@
 | JavaScript | Interatividade |
 | SASS | Um CSS Melhor |
 
+# Linguage Archives by / Arquivos de Linguagens de
+| Linguage Archive | **BY** |
+| ---------------- | ------ |
+| JavaScript | @arthurferreira-dev and @luisfilipems28 |
+| SASS | @dadead32434 |
+| HTML | @dadead32434, @luisfilipems28 and @arthurferreira-dev |
+| CSS | @arthurferreira-dev |
+
 # License
 <a href="LICENSE">Creative Commons 1.0</a>
