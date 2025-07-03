@@ -5,6 +5,7 @@
         "usernamehw.errorlens",
         "ritwickdey.LiveServer",
         "miramac.vscode-exec-node",
-        "MS-CEINTL.vscode-language-pack-pt-BR"
+        "MS-CEINTL.vscode-language-pack-pt-BR",
+        "formulahendry.auto-close-tag"
     ]
 }

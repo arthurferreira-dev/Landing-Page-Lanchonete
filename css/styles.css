@@ -178,12 +178,12 @@ footer > section {
 }
 
 ol#menu-list {
-    list-style-type: circle;
-    list-style: circle;
-}
-
-ol#menu-list > * {
-    display: inline-block;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 section#redes {

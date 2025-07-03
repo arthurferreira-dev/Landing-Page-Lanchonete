@@ -1,2 +1,26 @@
 Anotações:
 1. não esquecer quando estiver rolando o projeto, colocar o '.vscode' no '.gitignore'.
+
+CSS:
+ol#menu-list {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1281px) { /* Desktop e TV com alta resolução*/
+    header {
+        background-image: linear-gradient(to right, #eaa422, var(--yellow-dark));
+    }
+
+    i#icon-menu {
+        display: none;
+    }
+
+    ol#menu-list {
+        flex-flow: row nowrap;
+    }
+}
