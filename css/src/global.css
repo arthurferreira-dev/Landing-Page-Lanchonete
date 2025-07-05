@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@import url('../fonts.css');
+
+:root { 
+    /* styles.css */
+
+    --red: #BF0019;
+    --yellow-dark: #DE9000;
+    --bosta: #592C00;
+    --cinza-branco: #D8D3C8;
+    --tomato: #F52F2C;
+
+    /* github.css */
+
+    --full: 100%;
+    --background-github: #010409;
+    --background-thin-github: #0D1117;
+    --color-github: #F0F6FC;
+    --button-github: #212830;
+}

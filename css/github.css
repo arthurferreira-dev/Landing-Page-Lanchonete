@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/*
+    CSS Archive by: @arthurferreira-dev
+    Comments: @arthurferreira-dev
+    Organizate: @arthurferreira-dev
+    License: Creative Commons 1.0
+*/
+
+@import url('src/global.css');
+
+* { /* Reset Charset */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-github);
+    height: var(--full);
+    width: var(--full);
+    font-size: 1em;
+    font-family: var(--default);
+    color: var(--color-github);
+}
+
+img.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #4D535B;
+    display: block;
+    margin: auto;
+}
+
+h1.title {
+    text-align: center;
+    font-family: var(--nunito);
+}
+
+h1#title {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    line-height: 1.4em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #185DE3;
+}
+
+section.luisfilipems28, section.arthurferreira-dev, section.dadead32434 {
+    background-image: linear-gradient(to right, #10151c, #0c0f16); /*#0D1117*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 45%;
+    margin: auto auto 20px auto;
+    padding: 8px;
+}
+
+section.luisfilipems28 {
+    border-radius: 12px 0px 12px 0px;
+}
+
+section.arthurferreira-dev {
+    border-radius: 0px 12px 0px 12px;
+}
+
+section.dadead32434 {
+    border-radius: 0px 0px 12px 12px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 12px;
+    text-align: center;
+    color: var(--color-github);
+    background-color: var(--button-github);
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2em;
+    margin-bottom: 12px;
+    transition-duration: .36s;
+}
+
+button:hover {
+    background-color: #29313a;
+}
+
+button > a:hover {
+    color: var(--color-github);
+}

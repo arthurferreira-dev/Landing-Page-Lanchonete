@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); /*Oswald*/
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); /* Nunito */
+
 @font-face {
     font-family: 'Nexa Error';
     src: url('../fontes/nexa/Nexa-Heavy.ttf') format(truetype);
@@ -13,4 +15,5 @@
     --oswald: 'Oswald', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     --nexa-error: 'Nexa Error', Arial, Helvetica, Verdana, monospace, sans-serif;
     --default: Arial, Helvetica, sans-serif;
+    --nunito: 'Nunito', monospace, sans-serif;
 }

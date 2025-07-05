@@ -1,3 +1,4 @@
+/*
 document.addEventListener("DOMContentLoaded", function () {
   let nome;
   do {
@@ -8,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   welcomeMessageElement.textContent = `Olá ${nome}, seja bem vindo!`;
 });
+*/
 
   function Name() {
     let welcomeTXT = document.getElementById("bemVindo");
